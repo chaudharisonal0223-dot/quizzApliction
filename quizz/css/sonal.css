@@ -1,0 +1,95 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+
+
+html {
+  min-height: 100%;
+  background-color: #050726;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg,
+      #32105f,
+      #080a35,
+      #10194a,
+      #050726);
+  background-attachment: fixed;
+  color: white;
+}
+
+
+.navbar {
+  background: #050726;
+  border-bottom: 1px solid #29205c;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+}
+
+.brand {
+  color: #c35cff;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 8px;
+}
+
+.nav-link:hover {
+  color: #c35cff;
+}
+
+.btn-purple {
+  background: linear-gradient(90deg, #c026ff, #3478ff);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 24px;
+}
+
+.btn-purple:hover {
+  color: white;
+}
+
+
+.hero {
+  min-height: 650px;
+  background:
+    radial-gradient(ellipse at 10% 15%, #7a10cb66, transparent 35%),
+    radial-gradient(ellipse at 90% 70%, #123fce66, transparent 35%),
+    linear-gradient(130deg, #080a35, #07082c 55%, #15083d);
+}
+
+main {
+  width: 100%;
+}
+
+
+.hero {
+    min-height: 650px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background: radial-gradient(ellipse at 5% 15%, #7a10cb66, transparent 34%), radial-gradient(ellipse at 95% 65%, #123fce66, transparent 36%), linear-gradient(130deg, #080a35, #07082c 55%, #15083d);
+}                                                                          
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
